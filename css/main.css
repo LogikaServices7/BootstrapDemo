@@ -1,0 +1,47 @@
+body{
+	font-family: 'Arvo', serif;
+}
+
+.height{
+	min-height: 100vh;
+}
+
+.title-underline{
+	width: 100px;
+	height: 5px;
+	margin: 0 auto;
+	/*background: blue!important;*/
+	/*^^^This overides class already in HTML*/
+}
+
+.bg-white{
+	background-color: #89023E!important;
+}
+
+.height-80{
+	min-height: 100vh;
+}
+
+.about-picture{
+	background: url(../img/bcg1.jpeg)center/cover no-repeat fixed;
+	/*background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	
+
+
+}
+
+#dessert/*,#progress* <-- can target multiple id's*/{
+  background:linear-gradient(to right,rgba(0,0,0,.2), rgba(0,0,0,.1)), url(../img/d1.jpeg)center/cover no-repeat fixed;
+
+}
+
+header,.bg-dark{
+	background:linear-gradient(to right,rgba(237,182,163,.9), rgba(148,41,17,.9))!important;
+}
+
+#progress{
+	background: url(../img/workout2.jpeg)center/cover no-repeat fixed;
+}
